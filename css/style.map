@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.container {\r\n    max-width: 1140px;\r\n    margin: 0 auto;\r\n}",
+		""
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,qBAAqB;CACrC;;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACjB"
+}

@@ -1,0 +1,15 @@
+/* line 3, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 10, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
