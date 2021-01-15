@@ -1,15 +1,113 @@
-/* line 3, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* line 10, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+/* line 16, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+.btn {
+  width: 135px;
+  height: 45px;
+  background: #FFA501;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo {
+  padding-top: 206px;
+  min-height: 100vh;
+  background: url("../img/main_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 5, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo-name {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+/* line 2, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_mixins.scss */
+.promo-name:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -40%;
+  left: -3px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 13, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo-title {
+  width: 532px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  margin-top: 9px;
+}
+
+/* line 22, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo .btn {
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+/* line 27, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo a {
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_sidepanel.scss */
+.sidepanel {
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 230px;
+  z-index: 3;
+  align-items: center;
+  padding-left: 15px;
+}
+
+/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_sidepanel.scss */
+.sidepanel__text {
+  height: 150px;
+  width: 25px;
+}
+
+/* line 14, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_sidepanel.scss */
+.sidepanel__text span {
+  display: block;
+  transform: rotate(-90deg) translate(-50%, -325%);
+  width: 150px;
+}
+
+/* line 20, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_sidepanel.scss */
+.sidepanel__divider {
+  height: 70px;
+  width: 2px;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
