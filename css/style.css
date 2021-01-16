@@ -77,6 +77,32 @@
   text-decoration: none;
 }
 
+/* line 36, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo .hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+/* line 46, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo .hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #151812;
+}
+
+/* line 53, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
+.promo .hamburger span.long {
+  width: 36px;
+}
+
 /* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_sidepanel.scss */
 .sidepanel {
   height: 340px;
@@ -108,6 +134,108 @@
   height: 70px;
   width: 2px;
   background-color: black;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu.active {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+}
+
+/* line 17, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu-block {
+  position: relative;
+  width: 345px;
+  height: 100%;
+  background-color: #FFA501;
+  padding-top: 140px;
+  padding-left: 40px;
+  z-index: 10;
+}
+
+/* line 28, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/* line 34, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__list {
+  list-style-type: none;
+  padding-left: 35px;
+}
+
+/* line 38, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__link {
+  position: relative;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+/* line 44, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__link:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -35px;
+  top: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  transition: 0.5s all;
+}
+
+/* line 56, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__link:hover:before {
+  background-color: white;
+  border: none;
+}
+
+/* line 61, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 68, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu-social {
+  width: 90px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 78, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_menu.scss */
+.menu__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=style.css.map */

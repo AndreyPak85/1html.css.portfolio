@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "menu.css",
+	"sources": [
+		"../sass/menu.scss"
+	],
+	"sourcesContent": [
+		".menu {\r\n    position: fixed;\r\n    top: 0;\r\n    // left: -100%;\r\n    width: 100%;\r\n    height: 100vh;\r\n    z-index: 100;\r\n    // visibility: hidden;\r\n    // opacity: 0;\r\n    transition: 0.5s all;\r\n    &-block {\r\n        position: relative;\r\n        // left: -100%;\r\n        width: 345px;\r\n        height: 100%;\r\n        // transition: 0.6s all;\r\n        // background-color: $mainColor;\r\n        padding-top: 140px;\r\n        padding-left: 40px;\r\n\r\n    }\r\n    // &__close {\r\n    //     position: absolute;\r\n    //     top: 25px;\r\n    //     right: 25px;\r\n    //     cursor: pointer;\r\n    // }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,KAAK,CAAC;EACF,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EAEN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,GAAG;EAGZ,UAAU,EAAE,QAAQ;CAkBvB;;;AAjBI,AAAD,WAAO,CAAC;EACJ,QAAQ,EAAE,QAAQ;EAElB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EAGZ,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,IAAI;CAErB"
+}
