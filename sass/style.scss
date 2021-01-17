@@ -21,6 +21,15 @@
     border: none;
 }
 
+.divider {
+    height: 3px;
+    width: 60px;
+    background-color: $mainColor;
+    border: none;
+}
+
 @import "promo";
 @import "sidepanel";
 @import "menu";
+@import "about_me";
+@import "experience";

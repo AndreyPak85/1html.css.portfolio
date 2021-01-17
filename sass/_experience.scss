@@ -1,0 +1,86 @@
+.experience {
+    height: 560px;
+    padding-top: 120px;
+    &-edu-wrapper {
+        width: 1140px;
+        margin-top: 60px;
+        &-edu {
+            display: inline-block;
+            width: 50%;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &-opyt {
+            display: inline;
+            width: 50%;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+    }
+    
+    &-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 35px;
+        &-item {
+            display: grid;
+            grid-template-columns: 50px 335px;
+            grid-template-rows: 35px 100px;
+            grid-template-areas: 
+            "logo title"
+            "t t";
+            margin-top: 35px;
+
+            &-logo {
+                grid-area: logo;
+                position: relative;
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            &-title {
+                margin-left: 19px;
+                grid-area: title;
+                &-name {
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+                &-descr {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+            &-text {
+                grid-area: t;
+                margin-top: 15px;
+
+            }
+            }
+        }
+    .opyt {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .divider {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    }
+

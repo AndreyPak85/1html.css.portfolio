@@ -21,6 +21,14 @@
   border: none;
 }
 
+/* line 24, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+.divider {
+  height: 3px;
+  width: 60px;
+  background-color: #FFA501;
+  border: none;
+}
+
 /* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
 .promo {
   padding-top: 206px;
@@ -236,6 +244,220 @@
   height: 100%;
   background-color: #fff;
   opacity: 0.7;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me {
+  height: 720px;
+  padding-top: 120px;
+  background-color: #fff;
+}
+
+/* line 5, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper {
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-template-rows: 245px 355px;
+  grid-template-areas: "photo title" "photo skills";
+}
+
+/* line 13, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-photo {
+  grid-area: photo;
+}
+
+/* line 17, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-title {
+  grid-area: title;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+
+/* line 21, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-title-about {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 27, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-title-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+/* line 32, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-title-descr {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* line 37, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills {
+  grid-area: skills;
+  padding-left: 70px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+}
+
+/* line 45, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item {
+  display: grid;
+  grid-template-columns: 50px 250px;
+  grid-template-rows: 30px 100px;
+  grid-template-areas: "logo title" "logo descr";
+  position: relative;
+  z-index: 10;
+}
+
+/* line 54, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item-logo {
+  grid-area: logo;
+}
+
+/* line 57, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item-logo img {
+  margin-top: 12px;
+  margin-left: 7px;
+  z-index: 10;
+}
+
+/* line 62, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item-logo:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -2%;
+  left: -10px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 75, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item-title {
+  grid-area: title;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 81, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_about_me.scss */
+.about_me-wrapper-skills-item-descr {
+  grid-area: descr;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience {
+  height: 560px;
+  padding-top: 120px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-edu-wrapper {
+  width: 1140px;
+  margin-top: 60px;
+}
+
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-edu-wrapper-edu {
+  display: inline-block;
+  width: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* line 14, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-edu-wrapper-opyt {
+  display: inline;
+  width: 50%;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 35px;
+}
+
+/* line 30, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item {
+  display: grid;
+  grid-template-columns: 50px 335px;
+  grid-template-rows: 35px 100px;
+  grid-template-areas: "logo title" "t t";
+  margin-top: 35px;
+}
+
+/* line 39, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-logo {
+  grid-area: logo;
+  position: relative;
+}
+
+/* line 42, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-logo img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 48, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-title {
+  margin-left: 19px;
+  grid-area: title;
+}
+
+/* line 51, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-title-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 56, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-title-descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 62, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience-wrapper-item-text {
+  grid-area: t;
+  margin-top: 15px;
+}
+
+/* line 69, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience .opyt {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 75, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+}
+
+/* line 81, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_experience.scss */
+.experience .divider {
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
