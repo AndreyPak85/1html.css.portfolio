@@ -460,4 +460,159 @@
   margin-top: 25px;
 }
 
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume {
+  padding-top: 120px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+
+/* line 2, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_mixins.scss */
+.resume .title:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -40%;
+  left: -3px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume .title:before {
+  left: 552px;
+  top: -7px;
+}
+
+/* line 16, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume .title-fs36 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+/* line 22, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume .divider {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper {
+  padding: 60px 65px 0 65px;
+  display: grid;
+  grid-template-columns: 425px 425px;
+  column-gap: 135px;
+}
+
+/* line 33, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  padding-left: 35px;
+}
+
+/* line 39, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper h3:before {
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #FFA501;
+  left: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 51, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper ul {
+  list-style-type: none;
+}
+
+/* line 53, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper ul li {
+  position: relative;
+}
+
+/* line 55, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__wrapper ul li:after {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: -8px;
+  left: -7;
+  background-color: black;
+}
+
+/* line 68, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item {
+  positiom: relative;
+}
+
+/* line 70, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item:before {
+  content: '';
+  height: 1px;
+  width: 35px;
+  position: absolute;
+  background-color: black;
+  top: 63px;
+}
+
+/* line 79, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item-head {
+  padding: 45px 0 0 100px;
+}
+
+/* line 81, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item-head h4 {
+  margin-bottom: 0;
+}
+
+/* line 85, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item_body {
+  padding-left: 35px;
+  margin-top: 12px;
+}
+
+/* line 89, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item-icon {
+  position: absolute;
+  left: 54px;
+  top: 60px;
+}
+
+/* line 2, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_mixins.scss */
+.resume__item-icon:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -40%;
+  left: -3px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 95, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_resume.scss */
+.resume__item-icon:before {
+  left: -19px;
+  top: -15px;
+}
+
 /*# sourceMappingURL=style.css.map */

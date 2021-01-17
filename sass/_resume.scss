@@ -1,0 +1,101 @@
+.resume {
+    padding-top: 120px;
+    
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        position:relative;
+        @include before_circle
+        &:before {
+            left: 552px;
+            top: -7px;
+        }
+    }
+    .title-fs36 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .divider {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__wrapper {
+        padding: 60px 65px 0 65px;
+        
+        display: grid;
+        grid-template-columns: 425px 425px;
+        column-gap: 135px;
+        
+        h3 {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            position: relative;
+            padding-left: 35px;
+            &:before {
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                background-color: $mainColor;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        ul {
+            list-style-type: none;
+            li {
+                position: relative;
+                &:after {
+                    content: '';
+                    width: 1px;
+                    height: 100%;
+                    position: absolute;
+                    top: -8px;
+                    left: -7;
+                    background-color: black;
+                }
+            }
+
+        }
+    }
+    &__item {
+        positiom: relative;
+        &:before {
+            content: '';
+            height: 1px;
+            width: 35px;
+            position: absolute;
+            background-color: black;
+            top: 63px;
+
+        }
+        &-head {
+            padding: 45px 0 0 100px;
+            h4 {
+                margin-bottom: 0;
+            }
+        }
+        &_body {
+            padding-left: 35px;
+            margin-top: 12px;
+        }
+        &-icon {
+            position: absolute;
+            left: 54px;
+            top: 60px;
+
+            @include before_circle
+            &:before {
+                left: -19px;
+                top: -15px;
+            }
+        }
+    }
+}
