@@ -29,6 +29,20 @@
   border: none;
 }
 
+/* line 31, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+.subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* line 37, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/style.scss */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
 /* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_promo.scss */
 .promo {
   padding-top: 206px;
@@ -613,6 +627,61 @@
 .resume__item-icon:before {
   left: -19px;
   top: -15px;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills {
+  height: 1024px;
+  padding: 137px 0 0 0;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills .subtitle {
+  text-align: center;
+}
+
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills .title {
+  text-align: center;
+}
+
+/* line 10, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills .divider {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+/* line 14, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 270px);
+  gap: 13px;
+}
+
+/* line 20, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-wrapper-item {
+  height: 270px;
+  width: 270px;
+  border: 1px solid black;
+  padding: 30px 30px 25px 30px;
+}
+
+/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-wrapper-item-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+
+/* line 31, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-wrapper-item-descr {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500px;
+  margin-top: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */

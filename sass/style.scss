@@ -28,9 +28,22 @@
     border: none;
 }
 
+.subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+}
+
 @import "promo";
 @import "sidepanel";
 @import "menu";
 @import "about_me";
 @import "experience";
 @import "resume";
+@import "skills";

@@ -1,0 +1,39 @@
+.skills {
+    height: 1024px;
+    padding: 137px 0 0 0;
+    .subtitle {
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+    }
+    .divider {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &-wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        grid-template-rows: repeat(2, 270px);
+        gap: 13px;
+        &-item {
+            height: 270px;
+            width: 270px;
+            border: 1px solid black;
+            padding: 30px 30px 25px 30px;
+            &-name {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+                margin-top: 15px;
+            }
+            &-descr {
+                font-size: 12px;
+                line-height: 18px;
+                font-weight: 500px;
+                margin-top: 13px;
+            }
+        }
+    }
+}
