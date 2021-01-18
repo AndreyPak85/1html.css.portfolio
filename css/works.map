@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "works.css",
+	"sources": [
+		"../sass/works.scss"
+	],
+	"sourcesContent": [
+		".works {\r\n    height: 870px;\r\n    padding-top: 120px;\r\n    .subtitle {\r\n        text-align: center;\r\n    }\r\n    .title {\r\n        text-align: center;\r\n        margin-top: 6px;\r\n    }\r\n    .divider {\r\n        margin: 0 auto;\r\n        margin-top: 25px;\r\n    }\r\n    &-wrapper {\r\n        margin-top: 60px;\r\n        display: grid;\r\n        grid-template-columns: repeat(4, 280px);\r\n        grid-template-rows: repeat(2, 280px);\r\n        gap: 5px;\r\n\r\n    }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,KAAK;CAoBrB;;;AAtBD,AAGI,MAHE,CAGF,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;CACrB;;;AALL,AAMI,MANE,CAMF,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,GAAG;CAClB;;;AATL,AAUI,MAVE,CAUF,QAAQ,CAAC;EACL,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;CACnB;;;AACA,AAAD,cAAS,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,gBAAgB;EACvC,kBAAkB,EAAE,gBAAgB;EACpC,GAAG,EAAE,GAAG;CAEX"
+}

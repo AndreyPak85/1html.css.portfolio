@@ -1,0 +1,33 @@
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works {
+  height: 870px;
+  padding-top: 120px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works .subtitle {
+  text-align: center;
+}
+
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works .title {
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works .divider {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+/* line 15, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works-wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-template-rows: repeat(2, 280px);
+  gap: 5px;
+}
+
+/*# sourceMappingURL=works.css.map */
