@@ -638,20 +638,34 @@
 /* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills .subtitle {
   text-align: center;
+  position: relative;
 }
 
 /* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -31%;
+  left: 553px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 19, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills .title {
   text-align: center;
 }
 
-/* line 10, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 22, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills .divider {
   margin: 0 auto;
   margin-top: 25px;
 }
 
-/* line 14, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills-wrapper {
   margin-top: 60px;
   display: grid;
@@ -660,7 +674,7 @@
   gap: 13px;
 }
 
-/* line 20, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 32, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills-wrapper-item {
   height: 270px;
   width: 270px;
@@ -668,7 +682,7 @@
   padding: 30px 30px 25px 30px;
 }
 
-/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 37, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills-wrapper-item-name {
   font-weight: bold;
   font-size: 14px;
@@ -676,12 +690,70 @@
   margin-top: 15px;
 }
 
-/* line 31, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 43, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
 .skills-wrapper-item-descr {
   font-size: 12px;
   line-height: 18px;
   font-weight: 500px;
   margin-top: 13px;
+}
+
+/* line 51, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 62px);
+  column-gap: 45px;
+  row-gap: 38px;
+  margin-top: 128px;
+}
+
+/* line 59, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item {
+  width: 350px;
+  height: 15px;
+}
+
+/* line 63, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item-name {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  position: relative;
+}
+
+/* line 69, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item-name:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -40%;
+  left: -3px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 80, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item-name-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 88, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item-image {
+  margin-top: 27px;
+  width: 350px;
+  height: 14px;
+  background: #E8E4DE;
+  border-radius: 4px;
+}
+
+/* line 96, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+.skills-container-item-image-how {
+  background-color: #FFA501;
 }
 
 /*# sourceMappingURL=style.css.map */
