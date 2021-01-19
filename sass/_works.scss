@@ -3,6 +3,20 @@
     padding-top: 120px;
     .subtitle {
         text-align: center;
+        position: relative;
+        &:before {
+            content: '';
+            width: 36px;
+            height: 36px;
+            background-color: #FFA501;
+            position: absolute;
+            top: -31%;
+            left: 553px;
+            border-radius: 100%;
+            z-index: -1;
+        
+        }
+
     }
     .title {
         text-align: center;

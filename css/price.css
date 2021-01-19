@@ -1,0 +1,98 @@
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price {
+  height: 300px;
+  padding-top: 66px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price .subtitle {
+  text-align: center;
+  position: relative;
+}
+
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -35%;
+  left: 553px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 19, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price .divider {
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+/* line 23, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper {
+  margin-top: 60px;
+}
+
+/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 56px 56px 56px;
+  grid-auto-flow: column;
+  column-gap: 150px;
+}
+
+/* line 35, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item {
+  width: 488px;
+  height: 50px;
+  margin-top: 15px;
+  padding-left: 75px;
+  padding-right: 51px;
+}
+
+/* line 42, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 45, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item-title-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+}
+
+/* line 50, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item-title-name:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #FFA501;
+  position: absolute;
+  top: 3px;
+  left: -37px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 62, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item-title-price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 68, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/price.scss */
+.price-wrapper-item-descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=price.css.map */

@@ -629,19 +629,19 @@
   top: -15px;
 }
 
-/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills {
   height: 1100px;
   padding: 137px 0 0 0;
 }
 
-/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills .subtitle {
   text-align: center;
   position: relative;
 }
 
-/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills .subtitle:before {
   content: '';
   width: 36px;
@@ -654,18 +654,18 @@
   z-index: -1;
 }
 
-/* line 19, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 19, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills .title {
   text-align: center;
 }
 
-/* line 22, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 22, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills .divider {
   margin: 0 auto;
   margin-top: 25px;
 }
 
-/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-wrapper {
   margin-top: 60px;
   display: grid;
@@ -674,7 +674,7 @@
   gap: 13px;
 }
 
-/* line 32, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 32, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-wrapper-item {
   height: 270px;
   width: 270px;
@@ -682,7 +682,7 @@
   padding: 30px 30px 25px 30px;
 }
 
-/* line 37, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 37, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-wrapper-item-name {
   font-weight: bold;
   font-size: 14px;
@@ -690,7 +690,7 @@
   margin-top: 15px;
 }
 
-/* line 43, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 43, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-wrapper-item-descr {
   font-size: 12px;
   line-height: 18px;
@@ -698,7 +698,7 @@
   margin-top: 13px;
 }
 
-/* line 51, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 51, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container {
   display: grid;
   grid-template-columns: repeat(3, 350px);
@@ -708,13 +708,13 @@
   margin-top: 128px;
 }
 
-/* line 59, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 59, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item {
   width: 350px;
   height: 15px;
 }
 
-/* line 63, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 63, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item-name {
   display: flex;
   justify-content: space-between;
@@ -722,7 +722,7 @@
   position: relative;
 }
 
-/* line 69, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 69, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item-name:before {
   content: '';
   width: 36px;
@@ -735,14 +735,14 @@
   z-index: -1;
 }
 
-/* line 80, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 80, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item-name-name {
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
 }
 
-/* line 88, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 88, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item-image {
   margin-top: 27px;
   width: 350px;
@@ -751,42 +751,265 @@
   border-radius: 4px;
 }
 
-/* line 96, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/skills.scss */
+/* line 96, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_skills.scss */
 .skills-container-item-image-how {
   background-color: #FFA501;
   height: 14px;
 }
 
-/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
 .works {
   height: 870px;
   padding-top: 120px;
 }
 
-/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
 .works .subtitle {
   text-align: center;
+  position: relative;
 }
 
-/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
+.works .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -31%;
+  left: 553px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 21, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
 .works .title {
   text-align: center;
   margin-top: 6px;
 }
 
-/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
 .works .divider {
   margin: 0 auto;
   margin-top: 25px;
 }
 
-/* line 15, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 29, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_works.scss */
 .works-wrapper {
   margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 280px);
   grid-template-rows: repeat(2, 280px);
   gap: 5px;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price {
+  height: 360px;
+  padding-top: 66px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price .subtitle {
+  text-align: center;
+  position: relative;
+}
+
+/* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -35%;
+  left: 553px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 19, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price .divider {
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+/* line 23, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper {
+  margin-top: 60px;
+}
+
+/* line 26, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 56px 56px 56px;
+  grid-auto-flow: column;
+  column-gap: 150px;
+}
+
+/* line 35, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item {
+  width: 488px;
+  height: 50px;
+  margin-top: 15px;
+  padding-left: 75px;
+  padding-right: 51px;
+}
+
+/* line 42, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 45, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item-title-name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+}
+
+/* line 50, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item-title-name:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #FFA501;
+  position: absolute;
+  top: 3px;
+  left: -37px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 62, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item-title-price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 68, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_price.scss */
+.price-wrapper-item-descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 5px;
+}
+
+/* line 1, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact {
+  height: 810px;
+  padding: 120px 35px 0px 50px;
+}
+
+/* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper {
+  display: flex;
+}
+
+/* line 6, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper .subtitle {
+  margin-left: 15px;
+  position: relative;
+}
+
+/* line 9, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -35%;
+  left: -15px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 21, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper .title-photo {
+  width: 400px;
+  height: 600px;
+}
+
+/* line 30, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form {
+  padding-left: 70px;
+  padding-top: 8px;
+  width: 655px;
+  height: 600px;
+}
+
+/* line 35, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-descr {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* line 41, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-social {
+  margin-top: 20px;
+}
+
+/* line 43, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-social img {
+  margin-right: 25px;
+}
+
+/* line 47, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-reply {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 20px;
+}
+
+/* line 53, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* line 57, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form-input input {
+  display: block;
+  width: 280px;
+  height: 45px;
+  border: 1px solid #000000;
+  padding-left: 20px;
+}
+
+/* line 66, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form form textarea {
+  width: 585px;
+  height: 190px;
+  margin-top: 30px;
+}
+
+/* line 71, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/_contact.scss */
+.contact-wrapper-form form button {
+  width: 219px;
+  height: 45px;
+  margin-top: 28px;
+  background: #FFA501;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 /*# sourceMappingURL=style.css.map */

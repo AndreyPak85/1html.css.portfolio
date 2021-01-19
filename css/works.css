@@ -7,21 +7,35 @@
 /* line 4, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
 .works .subtitle {
   text-align: center;
+  position: relative;
 }
 
 /* line 7, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+.works .subtitle:before {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: #FFA501;
+  position: absolute;
+  top: -31%;
+  left: 553px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+/* line 21, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
 .works .title {
   text-align: center;
   margin-top: 6px;
 }
 
-/* line 11, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 25, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
 .works .divider {
   margin: 0 auto;
   margin-top: 25px;
 }
 
-/* line 15, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
+/* line 29, ../../../../../../Users/AP/Desktop/edu/html.css/portfolio/sass/works.scss */
 .works-wrapper {
   margin-top: 60px;
   display: grid;
